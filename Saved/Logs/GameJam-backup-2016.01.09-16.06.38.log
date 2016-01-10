@@ -1,0 +1,1325 @@
+﻿[2016.01.08-07.21.14:200][  0]Log file open, 01/08/16 15:21:14
+[2016.01.08-07.21.14:200][  0]LogInit:Display: Running engine for game: GameJam
+[2016.01.08-07.21.14:200][  0]LogInit:Display: RandInit(819740854) SRandInit(819740854).
+[2016.01.08-07.21.14:200][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.08-07.21.14:200][  0]LogStats: Stats thread started at 0.144983
+[2016.01.08-07.21.14:200][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.08-07.21.14:200][  0]LogInit: API Version: 2672455
+[2016.01.08-07.21.14:200][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.08-07.21.14:200][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.08-07.21.14:200][  0]LogInit: Build Configuration: Development
+[2016.01.08-07.21.14:200][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.08-07.21.14:200][  0]LogInit: Command line:  
+[2016.01.08-07.21.14:200][  0]LogInit: Base directory: D:/program/ue4/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.08-07.21.14:200][  0]LogInit: Rocket: 1
+[2016.01.08-07.21.14:243][  0]LogInit: Using libcurl 7.41.0
+[2016.01.08-07.21.14:243][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.08-07.21.14:243][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.08-07.21.14:243][  0]LogInit:  - other features:
+[2016.01.08-07.21.14:243][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.08-07.21.14:243][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.08-07.21.14:243][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.08-07.21.14:243][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.08-07.21.14:243][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.08-07.21.14:243][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.08-07.21.14:243][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.08-07.21.14:243][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.08-07.21.14:243][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.08-07.21.14:243][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.08-07.21.14:339][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.08-07.21.14:345][  0]LogInit: Object subsystem initialized
+[2016.01.08-07.21.14:363][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.08-07.21.14:363][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.08-07.21.14:375][  0]LogInit: Computer: ADMIN
+[2016.01.08-07.21.14:375][  0]LogInit: User: user
+[2016.01.08-07.21.14:375][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.08-07.21.14:375][  0]LogInit: High frequency timer resolution =3.515637 MHz
+[2016.01.08-07.21.14:375][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.01.08-07.21.14:375][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.08-07.21.14:375][  0]LogMemory: Process Physical Memory: 51.95 MB used, 51.95 MB peak
+[2016.01.08-07.21.14:375][  0]LogMemory: Process Virtual Memory: 56.90 MB used, 56.90 MB peak
+[2016.01.08-07.21.14:375][  0]LogMemory: Physical Memory: 2124.05 MB used, 8141.13 MB total
+[2016.01.08-07.21.14:375][  0]LogMemory: Virtual Memory: 347.39 MB used, 134217728.00 MB total
+[2016.01.08-07.21.15:042][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.01.08-07.21.15:676][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2016.01.08-07.21.15:676][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.01.08-07.21.15:677][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.08-07.21.15:677][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.08-07.21.15:677][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.08-07.21.15:680][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.08-07.21.15:680][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.08-07.21.15:690][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.08-07.21.16:106][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../../WORK/gamejam/Intermediate/Shaders/WorkingDirectory/3824/).
+[2016.01.08-07.21.16:106][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../../WORK/gamejam/Intermediate/Shaders/tmp/B7395265432F6505BA4316A4582BE409/'.
+[2016.01.08-07.21.16:106][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.08-07.21.20:558][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.08-07.21.20:562][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.08-07.21.20:565][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.08-07.21.20:569][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.08-07.21.20:572][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.08-07.21.20:576][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.08-07.21.20:579][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.08-07.21.20:581][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.08-07.21.20:584][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.08-07.21.20:586][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.08-07.21.20:589][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.08-07.21.20:591][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.08-07.21.20:592][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.08-07.21.20:700][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.08-07.21.20:705][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.08-07.21.20:707][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.08-07.21.20:712][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.08-07.21.20:712][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.08-07.21.21:297][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.08-07.21.21:558][  0]LogDerivedDataCache: Loaded boot cache 0.24s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.08-07.21.21:558][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.08-07.21.21:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../WORK/gamejam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.08-07.21.21:558][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.08-07.21.21:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../WORK/gamejam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.08-07.21.21:558][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.08-07.21.21:743][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.08-07.21.21:814][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.08-07.21.32:190][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.08-07.21.32:399][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.08-07.21.34:109][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.08-07.21.34:109][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.08-07.21.38:097][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.08-07.22.06:730][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.08-07.22.07:246][  0]LogAssetRegistry: FAssetRegistry took 0.0134 seconds to start up
+[2016.01.08-07.22.11:238][  0]SourceControl: Info Source control is disabled
+[2016.01.08-07.22.11:659][  0]SourceControl: Info Source control is disabled
+[2016.01.08-07.22.11:765][  0]SourceControl: Info Source control is disabled
+[2016.01.08-07.22.11:818][  0]SourceControl: Info Source control is disabled
+[2016.01.08-07.22.13:494][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.08-07.22.14:097][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.01.08-07.22.14:097][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.01.08-07.22.15:518][  0]LogEngine: Initializing Engine...
+[2016.01.08-07.22.15:627][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.08-07.22.16:440][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.01.08-07.22.18:247][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.08-07.22.18:626][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 16 bits per sample (channel mask 0x33)
+[2016.01.08-07.22.18:701][  0]LogInit: FAudioDevice initialized.
+[2016.01.08-07.22.18:725][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.08-07.22.18:733][  0]LogInit: Texture streaming: Enabled
+[2016.01.08-07.22.18:986][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.08-07.22.19:329][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.08-07.22.19:329][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 063ef5e840611d3826e0a3a0a7689965|bdf101df1db24ab0b29feb25013572ab|508531e8-b6df-41a8-944b-227a8d127274
+[2016.01.08-07.22.19:336][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.08-07.22.20:463][  0]LogInit: Transaction tracking system initialized
+[2016.01.08-07.22.25:122][  0]BlueprintLog: New page: Editor Load
+[2016.01.08-07.22.28:969][  0]LocalizationService: Info Localization service is disabled
+[2016.01.08-07.22.31:431][  0]LogConsoleResponse:Display: 
+[2016.01.08-07.22.36:657][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/gamejam/Content/' took 0.01s
+[2016.01.08-07.22.36:657][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.08-07.22.38:668][  0]SourceControl: Info Source control is disabled
+[2016.01.08-07.22.38:859][  0]Cmd: MAP LOAD FILE="../../../../../../../WORK/gamejam/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.08-07.22.38:861][  0]LightingResults: New page: Lighting Build
+[2016.01.08-07.22.39:198][  0]MapCheck: New page: Map Check
+[2016.01.08-07.22.39:198][  0]LightingResults: New page: Lighting Build
+[2016.01.08-07.22.40:080][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A633B476A0
+[2016.01.08-07.22.44:076][  0]LogTexture:Display: Building textures: snowgloss (AutoDXT)
+[2016.01.08-07.22.44:983][  0]LogMaterial: Missing cached shader map for material snow, compiling. 
+[2016.01.08-07.22.46:106][  0]LogTexture:Display: Building textures: floored (BC5)
+[2016.01.08-07.22.46:444][  0]LogMaterial: Missing cached shader map for material floor, compiling. 
+[2016.01.08-07.22.46:584][  0]LogMaterial: Missing cached shader map for material cubelight, compiling. 
+[2016.01.08-07.22.46:904][  0]LogMaterial: Missing cached shader map for material m_flare_01, compiling. 
+[2016.01.08-07.22.47:102][  0]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.22.49:713][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.01.08-07.22.49:870][  0]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2016.01.08-07.22.49:876][  0]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.01.08-07.22.49:881][  0]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.01.08-07.22.49:885][  0]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2016.01.08-07.22.49:889][  0]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2016.01.08-07.22.49:895][  0]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2016.01.08-07.22.49:930][  0]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2016.01.08-07.22.49:944][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.01.08-07.22.50:111][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.01.08-07.22.50:115][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.01.08-07.22.50:117][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.01.08-07.22.50:121][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.01.08-07.22.50:123][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.01.08-07.22.50:127][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.01.08-07.22.50:134][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.01.08-07.22.50:139][  0]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.01.08-07.22.50:147][  0]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.01.08-07.22.50:153][  0]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2016.01.08-07.22.50:158][  0]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2016.01.08-07.22.50:163][  0]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2016.01.08-07.22.50:169][  0]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2016.01.08-07.22.50:212][  0]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2016.01.08-07.22.50:230][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.01.08-07.22.50:414][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.01.08-07.22.50:422][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.01.08-07.22.50:423][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.01.08-07.22.50:429][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.01.08-07.22.50:431][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.01.08-07.22.50:435][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.01.08-07.22.50:442][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.01.08-07.22.50:461][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.01.08-07.22.50:617][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.01.08-07.22.50:619][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.01.08-07.22.50:621][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2016.01.08-07.22.50:622][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2016.01.08-07.22.50:624][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2016.01.08-07.22.50:626][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2016.01.08-07.22.50:643][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2016.01.08-07.22.50:648][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.01.08-07.22.50:725][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.01.08-07.22.50:727][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.01.08-07.22.50:728][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.01.08-07.22.50:731][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.01.08-07.22.50:733][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.01.08-07.22.50:734][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.01.08-07.22.50:738][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.01.08-07.22.50:774][  0]LogTexture:Display: Building textures: stonefloor (BC5)
+[2016.01.08-07.22.50:941][  0]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-07.22.51:803][  0]LogTexture:Display: Building textures: sandrockNORMAL (BC5)
+[2016.01.08-07.22.53:018][  0]LogMaterial: Missing cached shader map for material roughstone, compiling. 
+[2016.01.08-07.22.53:418][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave AuditoryCheesecake_Beautide...
+[2016.01.08-07.23.00:269][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.08-07.23.02:830][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.08-07.23.02:893][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.08-07.23.02:947][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.297ms to complete.
+[2016.01.08-07.23.02:965][  0]LogFileHelpers: Loading map 'MainMenu' took 24.133
+[2016.01.08-07.23.06:408][  0]LogCollectionManager: Loaded 0 collections in 0.001861 seconds
+[2016.01.08-07.23.06:748][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/gamejam/Saved/Collections/' took 0.01s
+[2016.01.08-07.23.06:748][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/gamejam/Content/Developers/user/Collections/' took 0.01s
+[2016.01.08-07.23.06:748][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/gamejam/Content/Collections/' took 0.01s
+[2016.01.08-07.23.06:748][  0]LogContentBrowser: Native class hierarchy populated in 0.0733 seconds. Added 1867 classes and 333 folders.
+[2016.01.08-07.23.07:079][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.01.08-07.23.07:348][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.08-07.23.10:857][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.08-07.23.11:058][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.08-07.23.12:480][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.08-07.23.13:052][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.08-07.23.13:184][  0]LogLoad: Full Startup: 120.26 seconds (BP compile: 1.29 seconds)
+[2016.01.08-07.23.14:063][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.01.08-07.23.15:049][  0]LogRenderer: Reallocating scene render targets to support 740x384 (Frame:2).
+[2016.01.08-07.23.18:289][  7]LogAssetRegistry: Asset discovery search completed in 71.0549 seconds
+[2016.01.08-07.23.18:289][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.01.08-07.23.18:325][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2016.01.08-07.23.49:049][ 98]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Debris2)
+[2016.01.08-07.23.53:388][348]LogEditorViewport: Clicking on Actor (LMB): UtilityBox_C (UtilityBox12)
+[2016.01.08-07.25.55:961][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2016.01.08-07.26.11:714][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube69)
+[2016.01.08-07.27.57:540][626]LogRenderer: Reallocating scene render targets to support 740x384 (Frame:6968).
+[2016.01.08-07.27.57:576][630]LogContentStreaming: Texture pool size now 200 MB
+[2016.01.08-07.47.56:373][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube67)
+[2016.01.08-07.49.35:734][998]AssetReimport: New page: Outstanding source content changes 23:49:35
+[2016.01.08-07.49.35:766][998]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/WORK/gamejam/Content/texture/rockbrick/BaseMaterial_albedo.tga)
+[2016.01.08-07.49.39:983][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/texture/rockbrick/BaseMaterial_albedo" FILE="../../../../../../../WORK/gamejam/Content/texture/rockbrick/BaseMaterial_albedo.uasset" SILENT=true
+[2016.01.08-07.49.40:591][999]LogSavePackage: Save=593.043030ms
+[2016.01.08-07.49.40:591][999]LogSavePackage: Moving '../../../../../../../WORK/gamejam/Saved/BaseMaterial_albedo89C8EF454B3C75811E54D789B73D18A3.tmp' to '../../../../../../../WORK/gamejam/Content/texture/rockbrick/BaseMaterial_albedo.uasset'
+[2016.01.08-07.49.40:594][999]LogSavePackage: Total save time: 596.225377ms
+[2016.01.08-07.49.40:594][999]LogSavePackage:Warning: Finished SavePackage ../../../../../../../WORK/gamejam/Content/texture/rockbrick/BaseMaterial_albedo.uasset
+[2016.01.08-07.49.40:609][  0]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/WORK/gamejam/Content/texture/rockbrick/BaseMaterial_normal.tga)
+[2016.01.08-07.49.41:293][  1]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/WORK/gamejam/Content/texture/rockbrick/BaseMaterial_reflection.tga)
+[2016.01.08-07.49.43:597][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/texture/rockbrick/BaseMaterial_normal" FILE="../../../../../../../WORK/gamejam/Content/texture/rockbrick/BaseMaterial_normal.uasset" SILENT=true
+[2016.01.08-07.49.44:271][  2]LogSavePackage: Save=674.129028ms
+[2016.01.08-07.49.44:271][  2]LogSavePackage: Moving '../../../../../../../WORK/gamejam/Saved/BaseMaterial_normal711A80FC4BB8880EDFED058DCC77B3AD.tmp' to '../../../../../../../WORK/gamejam/Content/texture/rockbrick/BaseMaterial_normal.uasset'
+[2016.01.08-07.49.44:272][  2]LogSavePackage: Total save time: 675.121181ms
+[2016.01.08-07.49.44:272][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../../WORK/gamejam/Content/texture/rockbrick/BaseMaterial_normal.uasset
+[2016.01.08-07.49.44:287][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/texture/rockbrick/BaseMaterial_reflection" FILE="../../../../../../../WORK/gamejam/Content/texture/rockbrick/BaseMaterial_reflection.uasset" SILENT=true
+[2016.01.08-07.49.44:718][  2]LogSavePackage: Save=429.980408ms
+[2016.01.08-07.49.44:718][  2]LogSavePackage: Moving '../../../../../../../WORK/gamejam/Saved/BaseMaterial_reflectionCD9FF82449D2EA6CCCA685885EF8EE10.tmp' to '../../../../../../../WORK/gamejam/Content/texture/rockbrick/BaseMaterial_reflection.uasset'
+[2016.01.08-07.49.44:719][  2]LogSavePackage: Total save time: 431.136094ms
+[2016.01.08-07.49.44:719][  2]LogSavePackage:Warning: Finished SavePackage ../../../../../../../WORK/gamejam/Content/texture/rockbrick/BaseMaterial_reflection.uasset
+[2016.01.08-07.49.47:738][242]AssetReimport: Info Importing new asset /Game/texture/rockbrick/BaseMaterial_albedo.
+[2016.01.08-07.49.47:738][242]AssetReimport: Info Importing new asset /Game/texture/rockbrick/BaseMaterial_normal.
+[2016.01.08-07.49.47:738][242]AssetReimport: Info Importing new asset /Game/texture/rockbrick/BaseMaterial_reflection.
+[2016.01.08-07.49.55:250][105]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.49.55:691][105]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.49.55:713][105]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.49.55:740][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.01.08-07.49.56:701][134]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.01.08-07.49.56:701][134]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.01.08-07.49.56:701][134]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.01.08-07.49.56:701][134]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.01.08-07.50.02:902][841]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.02:907][841]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.03:566][897]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.01.08-07.50.03:566][897]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.01.08-07.50.03:566][897]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.01.08-07.50.03:566][897]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.01.08-07.50.04:448][997]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.04:452][997]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.05:093][ 53]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.01.08-07.50.05:093][ 53]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.01.08-07.50.05:093][ 53]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.01.08-07.50.05:093][ 53]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.01.08-07.50.08:430][359]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.08:434][359]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.08:447][359]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.08-07.50.08:478][359]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.08-07.50.09:070][407]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.01.08-07.50.09:070][407]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.01.08-07.50.09:071][407]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.01.08-07.50.09:071][407]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.01.08-07.50.11:762][709]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.11:767][709]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.11:789][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.08-07.50.11:840][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.08-07.50.11:843][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.08-07.50.12:440][757]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.01.08-07.50.12:440][757]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.01.08-07.50.12:440][757]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.01.08-07.50.12:440][757]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.01.08-07.50.14:511][989]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.14:516][989]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.14:543][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.08-07.50.15:253][ 47]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.01.08-07.50.15:253][ 47]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.01.08-07.50.15:253][ 47]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.50.15:253][ 47]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.08-07.50.17:144][266]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.17:149][266]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.17:184][266]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.08-07.50.17:845][321]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.01.08-07.50.17:845][321]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2016.01.08-07.50.17:845][321]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.50.17:845][321]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.08-07.50.24:130][ 31]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.24:136][ 31]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.24:136][ 31]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.08-07.50.24:180][ 31]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.08-07.50.24:183][ 31]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.08-07.50.24:215][ 31]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.08-07.50.24:848][ 78]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2016.01.08-07.50.24:848][ 78]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2016.01.08-07.50.24:848][ 78]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.50.24:848][ 78]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.08-07.50.34:426][ 15]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.34:431][ 15]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.35:113][ 71]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.01.08-07.50.35:113][ 71]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.01.08-07.50.35:113][ 71]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.50.35:113][ 71]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.08-07.50.37:678][364]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.37:683][364]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.37:707][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.08-07.50.38:415][422]MaterialEditorStats: Info Base pass shader with static lighting: 79 instructions
+[2016.01.08-07.50.38:415][422]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.01.08-07.50.38:415][422]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.50.38:415][422]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.08-07.50.40:395][638]LogMaterialEditor: Applying material stone
+[2016.01.08-07.50.41:684][638]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.41:703][638]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.50.41:771][638]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.41:834][638]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.50.41:847][638]LogMaterial: 0.001428 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.51.02:185][942]LogRenderer: Reallocating scene render targets to support 740x384 (Frame:12152).
+[2016.01.08-07.51.02:221][945]LogContentStreaming: Texture pool size now 400 MB
+[2016.01.08-07.51.03:140][ 54]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube67)
+[2016.01.08-07.51.06:192][387]LogEditorViewport: Clicking Background
+[2016.01.08-07.51.33:077][563]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2016.01.08-07.51.40:634][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube67)
+[2016.01.08-07.51.48:731][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube67)
+[2016.01.08-07.51.51:132][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube69)
+[2016.01.08-07.52.27:184][971]LogRenderer: Reallocating scene render targets to support 740x384 (Frame:19343).
+[2016.01.08-07.52.27:291][975]LogContentStreaming: Texture pool size now 700 MB
+[2016.01.08-07.52.42:478][745]MaterialEditorStats: Info Base pass shader with static lighting: 99 instructions
+[2016.01.08-07.52.42:478][745]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2016.01.08-07.52.42:478][745]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.52.42:478][745]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-07.53.04:024][234]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.53.04:029][234]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.53.04:055][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.08-07.53.05:045][321]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-07.53.05:045][321]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-07.53.05:045][321]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.53.05:045][321]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-07.53.10:258][933]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.53.10:263][933]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.53.10:952][991]MaterialEditorStats: Info Base pass shader with static lighting: 79 instructions
+[2016.01.08-07.53.10:952][991]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.01.08-07.53.10:952][991]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.53.10:952][991]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.08-07.53.13:521][292]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.53.13:527][292]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.53.13:562][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.08-07.53.14:243][347]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-07.53.14:243][347]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-07.53.14:243][347]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.53.14:243][347]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-07.53.16:377][593]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.53.16:382][593]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.53.16:405][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.08-07.53.17:147][656]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-07.53.17:147][656]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-07.53.17:147][656]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.53.17:147][656]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-07.53.27:800][877]LogMaterialEditor: Applying material stone
+[2016.01.08-07.53.28:331][877]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.53.28:350][877]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.53.28:369][877]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.53.28:426][877]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.53.28:440][877]LogMaterial: 0.002472 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.53.30:574][ 65]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2016.01.08-07.53.30:574][ 65]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.01.08-07.53.30:574][ 65]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.53.30:575][ 65]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.01.08-07.53.55:073][937]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2016.01.08-07.54.13:284][ 81]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2016.01.08-07.54.16:789][485]LogEditorViewport: Clicking Background
+[2016.01.08-07.54.40:582][285]Cmd: TRANSACTION UNDO
+[2016.01.08-07.54.40:606][285]LogEditorTransaction: Undo Select Brush Surface
+[2016.01.08-07.54.40:713][285]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.54.40:733][285]LogMaterial: 0.000212 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.55.19:596][868]Cmd: POLY TEXMULT UU=0.707107 VV=0.707107 UV=-0.707107 VU=0.707107
+[2016.01.08-07.55.26:413][679]Cmd: POLY TEXMULT UU=0.707107 VV=0.707107 UV=-0.707107 VU=0.707107
+[2016.01.08-07.55.27:892][856]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2016.01.08-07.55.31:702][304]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2016.01.08-07.55.32:385][386]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2016.01.08-07.56.03:284][  1]LogRenderer: Reallocating scene render targets to support 740x384 (Frame:32557).
+[2016.01.08-07.56.03:322][  5]LogContentStreaming: Texture pool size now 400 MB
+[2016.01.08-07.56.48:464][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube70)
+[2016.01.08-07.56.49:439][458]LogEditorViewport: Clicking Background
+[2016.01.08-07.57.01:934][953]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume2)
+[2016.01.08-07.57.22:717][386]LogEditorViewport: Clicking Background
+[2016.01.08-07.57.32:309][520]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2016.01.08-07.57.42:093][668]LogEditorViewport: Clicking Background
+[2016.01.08-07.57.44:379][942]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.01.08-07.58.06:930][624]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.01.08-07.58.10:590][ 40]LogRenderer: Reallocating scene render targets to support 900x384 (Frame:42647).
+[2016.01.08-07.58.12:701][287]LogRenderer: Reallocating scene render targets to support 1168x384 (Frame:42650).
+[2016.01.08-07.58.25:555][779]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-07.58.25:555][779]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-07.58.25:555][779]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.58.25:555][779]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-07.58.38:427][140]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube70)
+[2016.01.08-07.58.40:766][409]Cmd: TRANSACTION UNDO
+[2016.01.08-07.58.40:766][409]LogEditorTransaction: Undo Select Brush Surface
+[2016.01.08-07.58.40:798][409]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-07.58.40:803][409]LogMaterial: 0.000165 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-07.58.41:860][494]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-07.58.41:860][494]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-07.58.41:860][494]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-07.58.41:860][494]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-07.58.49:815][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube67)
+[2016.01.08-07.58.59:710][531]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.01.08-07.59.19:085][677]LogRenderer: Reallocating scene render targets to support 1168x608 (Frame:49372).
+[2016.01.08-07.59.50:153][152]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2016.01.08-07.59.51:102][258]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2016.01.08-07.59.55:377][742]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2016.01.08-07.59.56:830][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2016.01.08-07.59.58:189][ 59]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2016.01.08-08.00.10:600][429]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.01.08-08.00.22:775][769]LogEditorViewport: Clicking on Actor (LMB): UtilityBox_C (UtilityBox13)
+[2016.01.08-08.00.27:633][326]LogEditorViewport: Clicking on Actor (LMB): UtilityBox_C (UtilityBox13)
+[2016.01.08-08.00.29:724][544]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2016.01.08-08.00.31:963][776]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2016.01.08-08.00.35:410][161]Cmd: DELETE
+[2016.01.08-08.00.35:410][161]Cmd: ACTOR DELETE
+[2016.01.08-08.00.35:649][161]LogEditorActor: Deleted Actor: PointLight
+[2016.01.08-08.00.35:851][161]LogEditorActor: Deleted 1 Actors (0.232 secs)
+[2016.01.08-08.00.37:581][359]Cmd: TRANSACTION UNDO
+[2016.01.08-08.00.37:581][359]LogEditorTransaction: Undo Delete Actors
+[2016.01.08-08.00.37:661][359]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-08.00.37:666][359]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.00.38:664][433]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-08.00.38:664][433]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-08.00.38:664][433]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.00.38:664][433]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.00.39:509][528]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2016.01.08-08.00.51:237][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.01.08-08.00.58:404][614]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.00.58:553][614]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.00.58:559][614]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.00.58:585][614]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.01.08-08.00.58:588][614]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.08-08.00.59:596][668]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2016.01.08-08.00.59:597][668]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.01.08-08.00.59:597][668]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.00.59:597][668]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.08-08.01.01:394][814]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.01.01:399][814]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.01.02:104][858]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2016.01.08-08.01.02:104][858]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.01.08-08.01.02:104][858]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.01.02:104][858]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.08-08.01.02:565][896]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.01.02:582][896]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2016.01.08-08.01.02:583][896]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.01.03:230][934]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.01.08-08.01.03:230][934]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.01.08-08.01.03:230][934]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.01.08-08.01.03:230][934]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.01.08-08.01.03:462][952]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.01.03:467][952]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.01.04:116][989]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.01.08-08.01.04:116][989]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.01.08-08.01.04:116][989]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.01.08-08.01.04:116][989]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.01.08-08.01.20:541][620]LogRenderer: Reallocating scene render targets to support 1168x632 (Frame:62516).
+[2016.01.08-08.01.48:185][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="../../../../../../../WORK/gamejam/Saved/Autosaves/Game/Maps/MainMenu_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.08-08.01.48:598][ 60]LogSavePackage: Save=390.901276ms
+[2016.01.08-08.01.48:598][ 60]LogSavePackage: Moving '../../../../../../../WORK/gamejam/Saved/MainMenu_Auto1B0859A274CE478D06D9C6E98832FB3F1.tmp' to '../../../../../../../WORK/gamejam/Saved/Autosaves/Game/Maps/MainMenu_Auto1.umap'
+[2016.01.08-08.01.48:599][ 60]LogSavePackage: Total save time: 396.465849ms
+[2016.01.08-08.01.48:599][ 60]LogSavePackage:Warning: Finished SavePackage ../../../../../../../WORK/gamejam/Saved/Autosaves/Game/Maps/MainMenu_Auto1.umap
+[2016.01.08-08.01.48:633][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.460
+[2016.01.08-08.01.48:633][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.460
+[2016.01.08-08.01.48:636][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/material/stone] ([1] browsable assets)...
+[2016.01.08-08.01.48:661][ 60]OBJ SavePackage:     Rendered thumbnail for [Material /Game/material/stone.stone]
+[2016.01.08-08.01.48:661][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/material/stone]
+[2016.01.08-08.01.48:661][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/material/stone" FILE="../../../../../../../WORK/gamejam/Saved/Autosaves/Game/material/stone_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.01.08-08.01.48:721][ 60]LogSavePackage: Save=25.492393ms
+[2016.01.08-08.01.48:721][ 60]LogSavePackage: Moving '../../../../../../../WORK/gamejam/Saved/stone_Auto19B1EE80249C5B548C08467988230561C.tmp' to '../../../../../../../WORK/gamejam/Saved/Autosaves/Game/material/stone_Auto1.uasset'
+[2016.01.08-08.01.48:722][ 60]LogSavePackage: Total save time: 59.744220ms
+[2016.01.08-08.01.48:722][ 60]LogSavePackage:Warning: Finished SavePackage ../../../../../../../WORK/gamejam/Saved/Autosaves/Game/material/stone_Auto1.uasset
+[2016.01.08-08.01.48:722][ 60]LogFileHelpers: Auto-saving content packages took 0.088
+[2016.01.08-08.04.23:855][883]AssetReimport: New page: Outstanding source content changes 00:04:23
+[2016.01.08-08.04.23:881][883]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/WORK/gamejam/Content/texture/rock/BaseMaterial_normal.tga)
+[2016.01.08-08.04.24:615][884]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/WORK/gamejam/Content/texture/rock/BaseMaterial_albedo.tga)
+[2016.01.08-08.04.28:405][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/texture/rock/BaseMaterial_normal" FILE="../../../../../../../WORK/gamejam/Content/texture/rock/BaseMaterial_normal.uasset" SILENT=true
+[2016.01.08-08.04.28:859][885]LogSavePackage: Save=451.937164ms
+[2016.01.08-08.04.28:859][885]LogSavePackage: Moving '../../../../../../../WORK/gamejam/Saved/BaseMaterial_normalB33C9DD94FAD36477377C4A1C9204F79.tmp' to '../../../../../../../WORK/gamejam/Content/texture/rock/BaseMaterial_normal.uasset'
+[2016.01.08-08.04.28:860][885]LogSavePackage: Total save time: 453.104515ms
+[2016.01.08-08.04.28:860][885]LogSavePackage:Warning: Finished SavePackage ../../../../../../../WORK/gamejam/Content/texture/rock/BaseMaterial_normal.uasset
+[2016.01.08-08.04.28:873][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/texture/rock/BaseMaterial_albedo" FILE="../../../../../../../WORK/gamejam/Content/texture/rock/BaseMaterial_albedo.uasset" SILENT=true
+[2016.01.08-08.04.29:383][885]LogSavePackage: Save=496.025330ms
+[2016.01.08-08.04.29:383][885]LogSavePackage: Moving '../../../../../../../WORK/gamejam/Saved/BaseMaterial_albedo6E5117414B92A5DC984F529FB01EE64C.tmp' to '../../../../../../../WORK/gamejam/Content/texture/rock/BaseMaterial_albedo.uasset'
+[2016.01.08-08.04.29:384][885]LogSavePackage: Total save time: 497.326944ms
+[2016.01.08-08.04.29:384][885]LogSavePackage:Warning: Finished SavePackage ../../../../../../../WORK/gamejam/Content/texture/rock/BaseMaterial_albedo.uasset
+[2016.01.08-08.04.29:404][886]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/WORK/gamejam/Content/texture/rock/BaseMaterial_reflection.tga)
+[2016.01.08-08.04.32:751][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/texture/rock/BaseMaterial_reflection" FILE="../../../../../../../WORK/gamejam/Content/texture/rock/BaseMaterial_reflection.uasset" SILENT=true
+[2016.01.08-08.04.33:216][887]LogSavePackage: Save=464.270355ms
+[2016.01.08-08.04.33:217][887]LogSavePackage: Moving '../../../../../../../WORK/gamejam/Saved/BaseMaterial_reflection7A46E91D404FCE43C459BBBEC3A1E1D9.tmp' to '../../../../../../../WORK/gamejam/Content/texture/rock/BaseMaterial_reflection.uasset'
+[2016.01.08-08.04.33:218][887]LogSavePackage: Total save time: 465.738360ms
+[2016.01.08-08.04.33:218][887]LogSavePackage:Warning: Finished SavePackage ../../../../../../../WORK/gamejam/Content/texture/rock/BaseMaterial_reflection.uasset
+[2016.01.08-08.04.36:224][178]AssetReimport: Info Importing new asset /Game/texture/rock/BaseMaterial_normal.
+[2016.01.08-08.04.36:224][178]AssetReimport: Info Importing new asset /Game/texture/rock/BaseMaterial_albedo.
+[2016.01.08-08.04.36:224][178]AssetReimport: Info Importing new asset /Game/texture/rock/BaseMaterial_reflection.
+[2016.01.08-08.04.55:703][650]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.04.55:708][650]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.04.55:709][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.04.55:774][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.04.55:799][650]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.04.55:805][650]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.04.55:820][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.01.08-08.04.55:846][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.04.55:849][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.01.08-08.04.55:922][650]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.04.55:927][650]LogMaterial: 0.000021 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.04.55:961][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.01.08-08.04.55:988][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.04.55:991][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.01.08-08.04.56:006][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.01.08-08.04.57:115][717]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2016.01.08-08.04.57:115][717]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.01.08-08.04.57:115][717]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.01.08-08.04.57:115][717]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.01.08-08.05.02:012][173]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.05.02:017][173]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.05.02:040][173]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.05.02:720][210]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2016.01.08-08.05.02:720][210]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.01.08-08.05.02:720][210]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.05.02:720][210]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.08-08.05.05:513][514]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.05.05:518][514]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.05.05:543][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.01.08-08.05.06:266][554]MaterialEditorStats: Info Base pass shader with static lighting: 79 instructions
+[2016.01.08-08.05.06:266][554]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.01.08-08.05.06:266][554]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.05.06:266][554]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.08-08.05.13:756][262]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.05.13:761][262]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.05.13:787][262]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.01.08-08.05.14:508][302]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.05.14:508][302]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.05.14:508][302]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.05.14:508][302]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.05.17:764][548]LogMaterialEditor: Applying material stonefloor
+[2016.01.08-08.05.18:284][548]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.05.18:304][548]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.05.18:347][548]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.05.18:431][548]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.05.18:448][548]LogMaterial: 0.001451 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.05.22:296][772]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2016.01.08-08.05.22:296][772]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2016.01.08-08.05.22:296][772]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.05.22:296][772]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.01.08-08.05.28:970][ 98]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-08.05.28:989][ 98]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.05.29:011][ 98]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-08.05.29:093][ 98]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2016.01.08-08.05.29:106][ 98]LogMaterial: 0.001347 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.05.42:486][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube72)
+[2016.01.08-08.05.44:822][840]LogEditorViewport: Clicking on Actor (LMB): UtilityBox_C (UtilityBox13)
+[2016.01.08-08.06.08:166][599]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.06.08:227][599]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.06.08:233][599]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.06.08:269][599]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.06.08:285][599]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.01.08-08.06.08:288][599]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.01.08-08.06.09:266][654]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.06.09:266][654]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.06.09:266][654]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.06.09:266][654]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.06.44:288][752]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.06.44:293][752]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.06.44:294][752]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2016.01.08-08.06.45:325][816]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.06.45:325][816]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.06.45:325][816]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.06.45:325][816]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.06.51:650][404]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.06.51:655][404]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.06.52:379][449]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.06.52:379][449]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.06.52:379][449]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.06.52:379][449]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.07.09:250][367]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.07.09:256][367]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.07.09:976][411]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.07.09:976][411]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.07.09:976][411]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.07.09:976][411]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.07.11:643][558]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.07.11:647][558]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.07.12:343][604]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.07.12:343][604]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.07.12:343][604]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.07.12:343][604]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.07.28:017][468]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.07.28:022][468]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.07.28:751][513]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.07.28:751][513]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.07.28:751][513]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.07.28:751][513]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.07.34:508][ 70]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.07.34:513][ 70]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.07.34:543][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.07.35:253][114]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.07.35:253][114]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.07.35:253][114]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.07.35:253][114]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.07.36:971][293]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.07.36:976][293]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.07.37:003][293]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.01.08-08.07.37:708][336]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.07.37:708][336]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.07.37:708][336]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.07.37:708][336]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.07.39:632][547]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.07.39:637][547]LogMaterial: 0.000162 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.07.39:673][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.01.08-08.07.40:380][592]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.07.40:380][592]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.07.40:381][592]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.07.40:381][592]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.07.44:343][992]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.07.44:349][992]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.07.45:083][ 40]MaterialEditorStats: Info Base pass shader with static lighting: 79 instructions
+[2016.01.08-08.07.45:083][ 40]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.01.08-08.07.45:083][ 40]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.07.45:083][ 40]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.08-08.07.47:464][292]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.07.47:469][292]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.07.47:493][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.01.08-08.07.48:224][336]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.01.08-08.07.48:224][336]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.01.08-08.07.48:224][336]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.07.48:224][336]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.07.49:990][518]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.07.49:995][518]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.07.50:046][518]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.01.08-08.07.50:747][561]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-08.07.50:747][561]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-08.07.50:747][561]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.07.50:747][561]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.08.02:204][527]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.08.02:209][527]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.02:971][576]MaterialEditorStats: Info Base pass shader with static lighting: 87 instructions
+[2016.01.08-08.08.02:971][576]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2016.01.08-08.08.02:971][576]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.08.02:971][576]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.08.03:202][595]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.08.03:207][595]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.03:976][646]MaterialEditorStats: Info Base pass shader with static lighting: 87 instructions
+[2016.01.08-08.08.03:976][646]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2016.01.08-08.08.03:976][646]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.08.03:976][646]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.08.07:889][977]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.08.07:894][977]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.08:402][ 11]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.08.08:412][ 11]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.09:276][ 66]MaterialEditorStats: Info Base pass shader with static lighting: 87 instructions
+[2016.01.08-08.08.09:276][ 66]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2016.01.08-08.08.09:276][ 66]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.08.09:276][ 66]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.08.12:416][325]LogMaterialEditor: Applying material stonefloor
+[2016.01.08-08.08.13:285][325]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.08.13:304][325]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.13:359][325]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.08.13:427][325]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.08.13:448][325]LogMaterial: 0.001209 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.17:424][633]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2016.01.08-08.08.17:424][633]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2016.01.08-08.08.17:424][633]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.08.17:424][633]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.01.08-08.08.35:980][424]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.08.35:985][424]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.37:013][499]MaterialEditorStats: Info Base pass shader with static lighting: 87 instructions
+[2016.01.08-08.08.37:013][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2016.01.08-08.08.37:013][499]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.08.37:013][499]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.08.39:272][695]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.08.39:277][695]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.40:026][747]MaterialEditorStats: Info Base pass shader with static lighting: 87 instructions
+[2016.01.08-08.08.40:027][747]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2016.01.08-08.08.40:027][747]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.08.40:027][747]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.08.41:519][875]LogMaterialEditor: Applying material stonefloor
+[2016.01.08-08.08.42:013][875]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.08.42:033][875]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.42:088][875]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.08.42:138][875]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.08.42:160][875]LogMaterial: 0.001409 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.08.46:210][142]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2016.01.08-08.08.46:210][142]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2016.01.08-08.08.46:210][142]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.08.46:210][142]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.01.08-08.09.09:152][456]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.09.09:157][456]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.09.10:190][531]MaterialEditorStats: Info Base pass shader with static lighting: 87 instructions
+[2016.01.08-08.09.10:190][531]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2016.01.08-08.09.10:190][531]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.09.10:190][531]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.09.11:791][665]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.09.11:797][665]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.09.12:541][715]MaterialEditorStats: Info Base pass shader with static lighting: 87 instructions
+[2016.01.08-08.09.12:541][715]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2016.01.08-08.09.12:541][715]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.09.12:541][715]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.09.17:516][130]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.09.17:521][130]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.09.17:974][159]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.09.17:981][159]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.09.18:798][212]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-08.09.18:798][212]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-08.09.18:798][212]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.09.18:798][212]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.09.20:722][374]LogMaterialEditor: Applying material stonefloor
+[2016.01.08-08.09.21:215][374]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.01.08-08.09.21:235][374]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.09.21:293][374]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.09.21:343][374]LogMaterial: Missing cached shader map for material stonefloor, compiling. 
+[2016.01.08-08.09.21:363][374]LogMaterial: 0.001494 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.09.25:394][691]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2016.01.08-08.09.25:394][691]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.01.08-08.09.25:394][691]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.09.25:394][691]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.01.08-08.09.27:992][969]LogEditorViewport: Clicking on Actor (LMB): UtilityBox_C (UtilityBox13)
+[2016.01.08-08.09.36:198][900]Cmd: POLY TEXSCALE  UU=0.500000 VV=1.000000
+[2016.01.08-08.09.42:766][629]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2016.01.08-08.09.44:255][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube72)
+[2016.01.08-08.09.53:157][772]LogEditorViewport: Clicking Background
+[2016.01.08-08.09.58:376][375]Cmd: POLY TEXSCALE  UU=1.000000 VV=1.000000
+[2016.01.08-08.11.18:731][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube72)
+[2016.01.08-08.11.24:969][255]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.01.08-08.12.09:272][406]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2016.01.08-08.12.22:154][939]Cmd: POLY TEXSCALE  UU=0.333333 VV=0.333333
+[2016.01.08-08.12.23:537][ 86]LogEditorViewport: Clicking Background
+[2016.01.08-08.12.45:470][597]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube72)
+[2016.01.08-08.12.45:917][648]Cmd: TRANSACTION UNDO
+[2016.01.08-08.12.45:917][648]LogEditorTransaction: Undo Clicking on Actors
+[2016.01.08-08.12.46:181][671]Cmd: TRANSACTION UNDO
+[2016.01.08-08.12.46:181][671]LogEditorTransaction: Undo Move Actors
+[2016.01.08-08.12.46:215][671]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/MainMenu.MainMenu:PersistentLevel.BoxBrush10_20.BrushComponent0) Component already registered.
+[2016.01.08-08.12.46:215][671]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/MainMenu.MainMenu:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2016.01.08-08.12.46:239][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_0' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:248][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_1' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:248][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_2' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:249][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_3' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:249][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_4' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:249][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_5' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:268][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_6' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:268][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_7' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:286][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_8' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:286][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_9' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:286][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_10' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:287][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_11' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:302][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_12' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:324][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_13' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:333][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_14' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:334][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_15' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:334][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_16' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:334][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_17' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:335][671]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/MainMenu.MainMenu:PersistentLevel.ModelComponent_18' invalid (860 verts, 0 indices).
+[2016.01.08-08.12.46:338][671]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/MainMenu.MainMenu:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2016.01.08-08.12.46:491][672]Cmd: TRANSACTION UNDO
+[2016.01.08-08.12.46:491][672]LogEditorTransaction: Undo Select Brush Surface
+[2016.01.08-08.12.55:498][737]LogEditorViewport: Clicking on Actor (LMB): UtilityBox_C (UtilityBox16)
+[2016.01.08-08.13.07:819][184]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.13.07:867][184]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.13.07:873][184]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.13.07:902][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.13.07:905][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.01.08-08.13.07:908][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.01.08-08.13.08:932][251]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-08.13.08:932][251]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-08.13.08:932][251]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.13.08:932][251]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.13.46:697][447]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.13.46:702][447]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.13.47:733][512]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-08.13.47:733][512]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-08.13.47:733][512]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.13.47:733][512]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.14.08:146][414]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.14.08:151][414]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.08:175][414]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.14.09:206][483]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-08.14.09:206][483]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-08.14.09:206][483]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.14.09:206][483]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.14.11:890][728]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.14.11:896][728]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.12:657][776]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.01.08-08.14.12:657][776]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.01.08-08.14.12:657][776]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.14.12:657][776]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.08-08.14.17:798][290]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.14.17:826][290]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.18:615][340]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2016.01.08-08.14.18:615][340]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.01.08-08.14.18:615][340]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.14.18:616][340]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.14.26:982][ 94]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.14.27:000][ 94]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.01.08-08.14.27:000][ 94]LogMaterial:Warning: 	Function ScaleUVsAroundPoint: Missing function input 'Texture Scale'
+[2016.01.08-08.14.27:000][ 94]LogMaterial: 0.000162 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.27:003][ 94]MaterialEditorStats:Error: Error [SM5] Function ScaleUVsAroundPoint: Missing function input 'Texture Scale'
+[2016.01.08-08.14.29:094][312]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.14.29:095][312]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.01.08-08.14.29:095][312]LogMaterial:Warning: 	Function ScaleUVsAroundPoint: Missing function input 'Texture Scale'
+[2016.01.08-08.14.29:095][312]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.29:123][312]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.14.34:519][860]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.14.34:524][860]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.35:259][905]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2016.01.08-08.14.35:259][905]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.01.08-08.14.35:259][905]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.14.35:259][905]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.08-08.14.39:126][298]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.14.39:131][298]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.39:160][298]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.01.08-08.14.39:885][344]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-08.14.39:886][344]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-08.14.39:886][344]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.14.39:886][344]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.14.53:963][ 12]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.14.53:968][ 12]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.54:704][ 62]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2016.01.08-08.14.54:704][ 62]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.01.08-08.14.54:704][ 62]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.01.08-08.14.54:704][ 62]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.01.08-08.14.59:907][517]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.01.08-08.14.59:909][517]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.59:919][517]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.01.08-08.14.59:921][517]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.59:923][517]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.01.08-08.14.59:925][517]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.59:927][517]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.01.08-08.14.59:929][517]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.14.59:957][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_3, compiling. 
+[2016.01.08-08.14.59:960][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_5, compiling. 
+[2016.01.08-08.14.59:967][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_7, compiling. 
+[2016.01.08-08.14.59:970][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_7, compiling. 
+[2016.01.08-08.15.13:367][684]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.01.08-08.15.13:372][684]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.08-08.15.27:350][957]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2016.01.08-08.15.41:194][520]Cmd: POLY TEXSCALE  UU=0.125000 VV=0.125000
+[2016.01.08-08.15.42:484][664]LogEditorViewport: Clicking Background
+[2016.01.08-08.16.08:023][597]Cmd: POLY TEXSCALE  UU=0.125000 VV=0.125000
+[2016.01.08-08.16.11:304][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube70)
+[2016.01.08-08.17.03:094][814]Cmd: POLY TEXSCALE  UU=0.125000 VV=0.125000
+[2016.01.08-08.17.09:597][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube72)
+[2016.01.08-08.17.19:114][684]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2016.01.08-08.17.20:161][806]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.01.08-08.17.33:446][357]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2016.01.08-08.17.37:031][779]LogEditorViewport: Clicking Background
+[2016.01.08-08.17.38:030][898]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2016.01.08-08.18.00:753][559]Cmd: SELECT NONE
+[2016.01.08-08.18.07:091][264]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.01.08-08.18.07:091][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.08-08.18.07:155][264]PIE: New page: PIE session: MainMenu (9 Jan 2016 00:18:07)
+[2016.01.08-08.18.07:156][264]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2016.01.08-08.18.07:299][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143355s)
+[2016.01.08-08.18.07:316][264]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.08-08.18.07:317][264]LogPlayLevel: PIE: World Init took: (0.017824s)
+[2016.01.08-08.18.07:317][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.161723s)
+[2016.01.08-08.18.07:355][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A648A25F80
+[2016.01.08-08.18.07:356][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A64C0CC900
+[2016.01.08-08.18.07:357][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A621C5D300
+[2016.01.08-08.18.07:357][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A6284CA700
+[2016.01.08-08.18.07:408][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A6219627A0
+[2016.01.08-08.18.07:408][264]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 16 bits per sample (channel mask 0x33)
+[2016.01.08-08.18.07:425][264]LogInit: FAudioDevice initialized.
+[2016.01.08-08.18.07:619][264]LogWorld: Game class is 'MainMenu_C'
+[2016.01.08-08.18.07:750][264]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.01.08-16.18.07
+[2016.01.08-08.18.07:750][264]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.08-08.18.07:807][264]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.08-08.18.07:833][264]LogWorld: Bringing up level for play took: 0.114712
+[2016.01.08-08.18.08:157][264]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 1.362
+[2016.01.08-08.18.08:171][264]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.01.08-08.18.09:966][407]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve level0polish.umap.
+[2016.01.08-08.18.10:022][407]LogPackageName: SearchForPackageOnDisk took   0.032s to resolve level0polish.umap.
+[2016.01.08-08.18.10:022][407]LogNet: Browse: /Game/Maps/Level0polish
+[2016.01.08-08.18.10:043][407]LogLoad: LoadMap: /Game/Maps/Level0polish
+[2016.01.08-08.18.10:138][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A66F1432E0
+[2016.01.08-08.18.10:187][407]Cmd: MEM
+[2016.01.08-08.18.10:203][407]LogMemory: Platform Memory Stats for Windows
+[2016.01.08-08.18.10:203][407]LogMemory: Process Physical Memory: 1328.31 MB used, 1328.31 MB peak
+[2016.01.08-08.18.10:203][407]LogMemory: Process Virtual Memory: 1858.42 MB used, 2134.15 MB peak
+[2016.01.08-08.18.10:203][407]LogMemory: Physical Memory: 5805.82 MB used, 8141.13 MB total
+[2016.01.08-08.18.10:203][407]LogMemory: Virtual Memory: 2558.95 MB used, 134217728.00 MB total
+[2016.01.08-08.18.10:203][407]LogMemory: 
+[2016.01.08-08.18.10:203][407]Allocator Stats for TBB: (not implemented)
+[2016.01.08-08.18.12:154][407]LogStaticMesh: Building static mesh SM_Giant_hand...
+[2016.01.08-08.18.12:222][407]LogStaticMesh: Built static mesh [0.144550.2s] /Game/Mesh/SM_Giant_hand.SM_Giant_hand
+[2016.01.08-08.18.12:235][407]LogStaticMesh: Building static mesh SM_Giant_broken...
+[2016.01.08-08.18.12:268][407]LogStaticMesh: Built static mesh [0.033219.2s] /Game/Mesh/SM_Giant_broken.SM_Giant_broken
+[2016.01.08-08.18.12:320][407]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2016.01.08-08.18.12:364][407]LogMaterial: Missing cached shader map for material Redlight, compiling. 
+[2016.01.08-08.18.12:412][407]LogStaticMesh: Building static mesh SM_Giant...
+[2016.01.08-08.18.12:446][407]LogStaticMesh: Built static mesh [0.060208.2s] /Game/Mesh/SM_Giant.SM_Giant
+[2016.01.08-08.18.12:488][407]LogMaterial: Missing cached shader map for material cubelight2, compiling. 
+[2016.01.08-08.18.13:517][407]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2016.01.08-08.18.13:538][407]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.01.08-08.18.13:543][407]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.01.08-08.18.13:588][407]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2016.01.08-08.18.13:597][407]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2016.01.08-08.18.13:652][407]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2016.01.08-08.18.13:656][407]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2016.01.08-08.18.13:658][407]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2016.01.08-08.18.13:665][407]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2016.01.08-08.18.13:668][407]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2016.01.08-08.18.13:789][407]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.01.08-08.18.14:234][407]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2016.01.08-08.18.14:242][407]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2016.01.08-08.18.14:250][407]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2016.01.08-08.18.14:260][407]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2016.01.08-08.18.14:263][407]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2016.01.08-08.18.14:265][407]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2016.01.08-08.18.14:267][407]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2016.01.08-08.18.14:283][407]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2016.01.08-08.18.14:290][407]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2016.01.08-08.18.14:292][407]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2016.01.08-08.18.14:330][407]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.01.08-08.18.14:686][407]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2016.01.08-08.18.14:690][407]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2016.01.08-08.18.14:693][407]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2016.01.08-08.18.14:697][407]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2016.01.08-08.18.14:753][407]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2016.01.08-08.18.14:755][407]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2016.01.08-08.18.14:759][407]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2016.01.08-08.18.14:763][407]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2016.01.08-08.18.14:765][407]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.01.08-08.18.14:772][407]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2016.01.08-08.18.14:774][407]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2016.01.08-08.18.14:776][407]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2016.01.08-08.18.14:782][407]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2016.01.08-08.18.14:797][407]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2016.01.08-08.18.14:811][407]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2016.01.08-08.18.14:817][407]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2016.01.08-08.18.14:821][407]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2016.01.08-08.18.14:826][407]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2016.01.08-08.18.14:831][407]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.01.08-08.18.14:890][407]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2016.01.08-08.18.14:891][407]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2016.01.08-08.18.14:921][407]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2016.01.08-08.18.15:025][407]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2016.01.08-08.18.15:044][407]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2016.01.08-08.18.15:069][407]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2016.01.08-08.18.15:088][407]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2016.01.08-08.18.15:115][407]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.01.08-08.18.15:123][407]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2016.01.08-08.18.15:142][407]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2016.01.08-08.18.15:147][407]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2016.01.08-08.18.15:151][407]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2016.01.08-08.18.15:163][407]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2016.01.08-08.18.15:174][407]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2016.01.08-08.18.15:182][407]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2016.01.08-08.18.15:184][407]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.01.08-08.18.15:201][407]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.01.08-08.18.15:207][407]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.01.08-08.18.15:266][407]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.01.08-08.18.15:734][407]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.01.08-08.18.15:761][407]LogTexture:Display: Building textures: HQ_Lightmap1_32 (AutoDXT)
+[2016.01.08-08.18.15:771][407]LogTexture:Display: Building textures: HQ_Lightmap1_34 (AutoDXT)
+[2016.01.08-08.18.15:776][407]LogTexture:Display: Building textures: HQ_Lightmap1_42 (AutoDXT)
+[2016.01.08-08.18.15:778][407]LogTexture:Display: Building textures: HQ_Lightmap1_51 (AutoDXT)
+[2016.01.08-08.18.15:785][407]LogTexture:Display: Building textures: HQ_Lightmap1_52 (AutoDXT)
+[2016.01.08-08.18.15:845][407]LogTexture:Display: Building textures: HQ_Lightmap1_53 (AutoDXT)
+[2016.01.08-08.18.15:847][407]LogTexture:Display: Building textures: HQ_Lightmap1_67 (AutoDXT)
+[2016.01.08-08.18.15:849][407]LogTexture:Display: Building textures: HQ_Lightmap1_68 (AutoDXT)
+[2016.01.08-08.18.15:857][407]LogTexture:Display: Building textures: HQ_Lightmap1_69 (AutoDXT)
+[2016.01.08-08.18.15:868][407]LogTexture:Display: Building textures: HQ_Lightmap1_70 (AutoDXT)
+[2016.01.08-08.18.15:883][407]LogTexture:Display: Building textures: HQ_Lightmap1_71 (AutoDXT)
+[2016.01.08-08.18.15:901][407]LogTexture:Display: Building textures: HQ_Lightmap1_72 (AutoDXT)
+[2016.01.08-08.18.15:917][407]LogTexture:Display: Building textures: HQ_Lightmap1_73 (AutoDXT)
+[2016.01.08-08.18.15:920][407]LogTexture:Display: Building textures: HQ_Lightmap1_74 (AutoDXT)
+[2016.01.08-08.18.15:924][407]LogTexture:Display: Building textures: HQ_Lightmap1_75 (AutoDXT)
+[2016.01.08-08.18.15:926][407]LogTexture:Display: Building textures: HQ_Lightmap1_76 (AutoDXT)
+[2016.01.08-08.18.15:931][407]LogTexture:Display: Building textures: HQ_Lightmap1_77 (AutoDXT)
+[2016.01.08-08.18.15:940][407]LogTexture:Display: Building textures: HQ_Lightmap1_78 (AutoDXT)
+[2016.01.08-08.18.15:945][407]LogTexture:Display: Building textures: HQ_Lightmap1_79 (AutoDXT)
+[2016.01.08-08.18.15:950][407]LogTexture:Display: Building textures: HQ_Lightmap1_80 (AutoDXT)
+[2016.01.08-08.18.15:953][407]LogTexture:Display: Building textures: HQ_Lightmap1_81 (AutoDXT)
+[2016.01.08-08.18.15:955][407]LogTexture:Display: Building textures: HQ_Lightmap1_82 (AutoDXT)
+[2016.01.08-08.18.15:957][407]LogTexture:Display: Building textures: HQ_Lightmap1_83 (AutoDXT)
+[2016.01.08-08.18.15:970][407]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.01.08-08.18.15:973][407]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2016.01.08-08.18.15:977][407]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2016.01.08-08.18.15:983][407]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2016.01.08-08.18.16:029][407]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2016.01.08-08.18.16:031][407]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2016.01.08-08.18.16:032][407]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2016.01.08-08.18.16:034][407]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2016.01.08-08.18.16:035][407]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2016.01.08-08.18.16:060][407]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.01.08-08.18.16:238][407]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2016.01.08-08.18.16:240][407]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2016.01.08-08.18.16:243][407]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2016.01.08-08.18.16:247][407]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2016.01.08-08.18.16:248][407]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2016.01.08-08.18.16:249][407]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2016.01.08-08.18.16:250][407]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2016.01.08-08.18.16:260][407]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2016.01.08-08.18.16:263][407]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2016.01.08-08.18.16:264][407]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2016.01.08-08.18.16:295][407]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.01.08-08.18.16:443][407]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2016.01.08-08.18.16:445][407]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2016.01.08-08.18.16:449][407]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2016.01.08-08.18.16:454][407]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2016.01.08-08.18.16:471][407]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2016.01.08-08.18.16:472][407]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2016.01.08-08.18.16:474][407]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2016.01.08-08.18.16:475][407]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2016.01.08-08.18.16:476][407]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.01.08-08.18.16:484][407]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2016.01.08-08.18.16:485][407]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2016.01.08-08.18.16:486][407]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2016.01.08-08.18.16:493][407]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2016.01.08-08.18.16:504][407]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2016.01.08-08.18.16:516][407]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2016.01.08-08.18.16:519][407]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2016.01.08-08.18.16:523][407]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2016.01.08-08.18.16:525][407]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2016.01.08-08.18.16:528][407]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.01.08-08.18.16:544][407]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2016.01.08-08.18.16:545][407]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2016.01.08-08.18.16:554][407]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2016.01.08-08.18.16:613][407]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2016.01.08-08.18.16:626][407]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2016.01.08-08.18.16:634][407]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2016.01.08-08.18.16:650][407]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2016.01.08-08.18.16:678][407]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.01.08-08.18.16:683][407]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2016.01.08-08.18.17:016][407]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2016.01.08-08.18.17:022][407]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2016.01.08-08.18.17:024][407]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2016.01.08-08.18.17:029][407]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2016.01.08-08.18.17:035][407]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2016.01.08-08.18.17:039][407]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2016.01.08-08.18.17:040][407]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.01.08-08.18.17:050][407]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.01.08-08.18.17:052][407]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.01.08-08.18.17:081][407]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.01.08-08.18.17:243][407]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.01.08-08.18.17:250][407]LogTexture:Display: Building textures: LQ_Lightmap_1_32 (DXT1)
+[2016.01.08-08.18.17:253][407]LogTexture:Display: Building textures: LQ_Lightmap_1_34 (DXT1)
+[2016.01.08-08.18.17:257][407]LogTexture:Display: Building textures: LQ_Lightmap_1_42 (DXT1)
+[2016.01.08-08.18.17:258][407]LogTexture:Display: Building textures: LQ_Lightmap_1_51 (DXT1)
+[2016.01.08-08.18.17:265][407]LogTexture:Display: Building textures: LQ_Lightmap_1_52 (DXT1)
+[2016.01.08-08.18.17:276][407]LogTexture:Display: Building textures: LQ_Lightmap_1_53 (DXT1)
+[2016.01.08-08.18.17:277][407]LogTexture:Display: Building textures: LQ_Lightmap_1_67 (DXT1)
+[2016.01.08-08.18.17:279][407]LogTexture:Display: Building textures: LQ_Lightmap_1_68 (DXT1)
+[2016.01.08-08.18.17:286][407]LogTexture:Display: Building textures: LQ_Lightmap_1_69 (DXT1)
+[2016.01.08-08.18.17:295][407]LogTexture:Display: Building textures: LQ_Lightmap_1_70 (DXT1)
+[2016.01.08-08.18.17:305][407]LogTexture:Display: Building textures: LQ_Lightmap_1_71 (DXT1)
+[2016.01.08-08.18.17:315][407]LogTexture:Display: Building textures: LQ_Lightmap_1_72 (DXT1)
+[2016.01.08-08.18.17:322][407]LogTexture:Display: Building textures: LQ_Lightmap_1_73 (DXT1)
+[2016.01.08-08.18.17:326][407]LogTexture:Display: Building textures: LQ_Lightmap_1_74 (DXT1)
+[2016.01.08-08.18.17:329][407]LogTexture:Display: Building textures: LQ_Lightmap_1_75 (DXT1)
+[2016.01.08-08.18.17:331][407]LogTexture:Display: Building textures: LQ_Lightmap_1_76 (DXT1)
+[2016.01.08-08.18.17:333][407]LogTexture:Display: Building textures: LQ_Lightmap_1_77 (DXT1)
+[2016.01.08-08.18.17:339][407]LogTexture:Display: Building textures: LQ_Lightmap_1_78 (DXT1)
+[2016.01.08-08.18.17:343][407]LogTexture:Display: Building textures: LQ_Lightmap_1_79 (DXT1)
+[2016.01.08-08.18.17:346][407]LogTexture:Display: Building textures: LQ_Lightmap_1_80 (DXT1)
+[2016.01.08-08.18.17:347][407]LogTexture:Display: Building textures: LQ_Lightmap_1_81 (DXT1)
+[2016.01.08-08.18.17:351][407]LogTexture:Display: Building textures: LQ_Lightmap_1_82 (DXT1)
+[2016.01.08-08.18.17:352][407]LogTexture:Display: Building textures: LQ_Lightmap_1_83 (DXT1)
+[2016.01.08-08.18.17:992][407]LogAIModule: Creating AISystem for world Level0polish
+[2016.01.08-08.18.17:993][407]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.08-08.18.18:178][407]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level0polish.Level0polish up for play (max tick rate 0) at 2016.01.08-16.18.18
+[2016.01.08-08.18.18:178][407]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level0polish.Level0polish:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.08-08.18.18:178][407]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level0polish.Level0polish:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.08-08.18.18:714][407]LogWorld: Bringing up level for play took: 0.709495
+[2016.01.08-08.18.40:346][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.01.08-08.18.40:481][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.01.08-08.18.40:540][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A67759B100
+[2016.01.08-08.19.12:675][223]LogEditorActor: Deleted Actor: DirectionalLight
+[2016.01.08-08.19.12:685][223]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.01.08-08.19.17:989][854]Cmd: TRANSACTION UNDO
+[2016.01.08-08.19.17:989][854]LogEditorTransaction: Undo Move Actors
+[2016.01.08-08.19.18:071][854]PIE:Warning: Warning AttachTo: '/Game/Maps/MainMenu.MainMenu:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/MainMenu.MainMenu:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2016.01.08-08.19.20:529][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.01.08-08.19.20:529][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.08-08.19.20:529][122]PIE: New page: PIE session: MainMenu (9 Jan 2016 00:19:20)
+[2016.01.08-08.19.20:529][122]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2016.01.08-08.19.20:539][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010334s)
+[2016.01.08-08.19.20:540][122]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.08-08.19.20:540][122]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2016.01.08-08.19.20:540][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.011150s)
+[2016.01.08-08.19.20:554][122]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 16 bits per sample (channel mask 0x33)
+[2016.01.08-08.19.20:559][122]LogInit: FAudioDevice initialized.
+[2016.01.08-08.19.20:592][122]LogWorld: Game class is 'MainMenu_C'
+[2016.01.08-08.19.20:600][122]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.01.08-16.19.20
+[2016.01.08-08.19.20:600][122]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.08-08.19.20:600][122]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.08-08.19.20:601][122]LogWorld: Bringing up level for play took: 0.007832
+[2016.01.08-08.19.20:603][122]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.185
+[2016.01.08-08.19.20:603][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.01.08-08.19.22:819][383]LogPackageName: SearchForPackageOnDisk took   0.033s to resolve level0polish.umap.
+[2016.01.08-08.19.22:849][383]LogPackageName: SearchForPackageOnDisk took   0.029s to resolve level0polish.umap.
+[2016.01.08-08.19.22:849][383]LogNet: Browse: /Game/Maps/Level0polish
+[2016.01.08-08.19.22:849][383]LogLoad: LoadMap: /Game/Maps/Level0polish
+[2016.01.08-08.19.22:863][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A604B413A0
+[2016.01.08-08.19.22:863][383]Cmd: MEM
+[2016.01.08-08.19.22:872][383]LogMemory: Platform Memory Stats for Windows
+[2016.01.08-08.19.22:872][383]LogMemory: Process Physical Memory: 1443.38 MB used, 1461.54 MB peak
+[2016.01.08-08.19.22:872][383]LogMemory: Process Virtual Memory: 1965.95 MB used, 2134.15 MB peak
+[2016.01.08-08.19.22:872][383]LogMemory: Physical Memory: 4146.16 MB used, 8141.13 MB total
+[2016.01.08-08.19.22:872][383]LogMemory: Virtual Memory: 2660.52 MB used, 134217728.00 MB total
+[2016.01.08-08.19.22:872][383]LogMemory: 
+[2016.01.08-08.19.22:872][383]Allocator Stats for TBB: (not implemented)
+[2016.01.08-08.19.23:411][383]LogAIModule: Creating AISystem for world Level0polish
+[2016.01.08-08.19.23:411][383]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.08-08.19.23:441][383]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level0polish.Level0polish up for play (max tick rate 0) at 2016.01.08-16.19.23
+[2016.01.08-08.19.23:442][383]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level0polish.Level0polish:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.08-08.19.23:442][383]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level0polish.Level0polish:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.08-08.19.23:445][383]LogWorld: Bringing up level for play took: 0.032636
+[2016.01.08-08.20.00:159][765]LogBlueprintUserMessages: [ThisButton_C_1] valid
+[2016.01.08-08.20.00:159][765]LogBlueprintUserMessages: [ThisButton_C_1] switch
+[2016.01.08-08.20.00:159][765]LogBlueprintUserMessages: [ThisButton_C_1] open
+[2016.01.08-08.20.12:566][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.01.08-08.20.12:605][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.01.08-08.20.12:669][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A64AE5EFC0
+[2016.01.08-08.20.18:714][770]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.08-08.20.18:714][770]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.08-08.20.19:021][771]Cmd: QUIT_EDITOR
+[2016.01.08-08.20.19:808][771]LogExit: Preparing to exit.
+[2016.01.08-08.20.20:386][771]LogExit: Editor shut down
+[2016.01.08-08.20.20:386][771]LogExit: Transaction tracking system shut down
+[2016.01.08-08.20.20:445][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A63CA2A160
+[2016.01.08-08.20.20:446][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A648E83B00
+[2016.01.08-08.20.20:447][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A6204DF1A0
+[2016.01.08-08.20.20:447][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A63CAF4720
+[2016.01.08-08.20.20:448][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A64AE5DE40
+[2016.01.08-08.20.21:737][771]LogExit: Object subsystem successfully closed.
+[2016.01.08-08.20.21:927][771]LogD3D11RHI: Shutdown
+[2016.01.08-08.20.21:927][771]LogD3D11RHI: CleanupD3DDevice
+[2016.01.08-08.20.22:068][771]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.08-08.20.22:835][771]LogModuleManager: Shutting down and abandoning module MaterialEditor (198)
+[2016.01.08-08.20.22:835][771]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.01.08-08.20.22:835][771]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.01.08-08.20.22:835][771]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.01.08-08.20.22:835][771]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.01.08-08.20.22:835][771]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.01.08-08.20.22:882][771]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.01.08-08.20.22:882][771]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.01.08-08.20.22:890][771]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.01.08-08.20.22:912][771]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.01.08-08.20.22:923][771]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.01.08-08.20.22:941][771]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.01.08-08.20.22:941][771]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.01.08-08.20.22:941][771]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.01.08-08.20.22:941][771]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.01.08-08.20.22:941][771]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.01.08-08.20.22:941][771]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.01.08-08.20.22:957][771]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.01.08-08.20.22:957][771]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.01.08-08.20.22:957][771]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.01.08-08.20.22:957][771]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.01.08-08.20.23:000][771]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.01.08-08.20.23:008][771]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.01.08-08.20.23:026][771]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.01.08-08.20.23:026][771]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.01.08-08.20.23:038][771]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.01.08-08.20.23:038][771]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.01.08-08.20.23:918][771]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.01.08-08.20.23:918][771]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.01.08-08.20.23:918][771]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.01.08-08.20.23:918][771]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.01.08-08.20.23:935][771]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.01.08-08.20.23:935][771]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.01.08-08.20.23:943][771]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.01.08-08.20.23:943][771]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.01.08-08.20.23:952][771]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.01.08-08.20.23:967][771]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.01.08-08.20.23:967][771]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.01.08-08.20.23:967][771]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.01.08-08.20.23:982][771]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.01.08-08.20.23:982][771]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.01.08-08.20.23:982][771]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.01.08-08.20.23:994][771]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.01.08-08.20.23:995][771]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.01.08-08.20.24:006][771]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.01.08-08.20.24:006][771]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.01.08-08.20.24:024][771]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.01.08-08.20.24:025][771]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.01.08-08.20.24:044][771]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.01.08-08.20.24:059][771]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.01.08-08.20.24:074][771]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.01.08-08.20.24:080][771]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.01.08-08.20.24:080][771]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.01.08-08.20.24:091][771]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.01.08-08.20.24:092][771]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.01.08-08.20.24:110][771]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.01.08-08.20.24:131][771]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.01.08-08.20.24:131][771]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.01.08-08.20.24:145][771]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.01.08-08.20.24:145][771]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.01.08-08.20.24:163][771]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.01.08-08.20.24:179][771]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.01.08-08.20.24:180][771]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.01.08-08.20.24:195][771]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.01.08-08.20.24:195][771]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.01.08-08.20.24:207][771]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.01.08-08.20.24:208][771]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.01.08-08.20.24:216][771]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.01.08-08.20.24:229][771]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.01.08-08.20.24:229][771]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.01.08-08.20.24:229][771]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.01.08-08.20.24:236][771]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.01.08-08.20.24:236][771]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.01.08-08.20.24:236][771]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.01.08-08.20.24:242][771]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.01.08-08.20.24:242][771]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.01.08-08.20.24:242][771]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.01.08-08.20.24:392][771]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.01.08-08.20.24:412][771]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.01.08-08.20.24:412][771]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.01.08-08.20.24:412][771]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.01.08-08.20.24:412][771]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.01.08-08.20.24:412][771]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.01.08-08.20.24:412][771]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.01.08-08.20.24:412][771]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.01.08-08.20.24:457][771]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.01.08-08.20.24:480][771]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.01.08-08.20.24:480][771]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.01.08-08.20.24:480][771]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.01.08-08.20.24:493][771]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.01.08-08.20.24:509][771]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.01.08-08.20.24:509][771]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.01.08-08.20.24:509][771]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.01.08-08.20.24:519][771]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.01.08-08.20.24:519][771]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.01.08-08.20.24:536][771]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.01.08-08.20.24:546][771]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.01.08-08.20.24:547][771]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.01.08-08.20.24:553][771]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.01.08-08.20.24:575][771]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.01.08-08.20.24:586][771]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.01.08-08.20.24:597][771]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.01.08-08.20.24:597][771]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.01.08-08.20.24:603][771]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.01.08-08.20.24:612][771]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.01.08-08.20.24:619][771]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.01.08-08.20.24:628][771]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.01.08-08.20.24:638][771]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.01.08-08.20.24:638][771]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.01.08-08.20.24:650][771]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.08-08.20.24:653][771]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.01.08-08.20.24:827][771]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.01.08-08.20.24:828][771]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.01.08-08.20.24:966][771]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.08-08.20.25:067][771]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.08-08.20.25:067][771]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.08-08.20.25:088][771]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.08-08.20.25:109][771]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.08-08.20.25:109][771]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.08-08.20.25:118][771]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.08-08.20.25:118][771]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.08-08.20.25:118][771]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.08-08.20.25:118][771]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.08-08.20.25:137][771]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.08-08.20.25:137][771]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.08-08.20.25:158][771]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.08-08.20.25:158][771]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.08-08.20.25:158][771]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.08-08.20.25:170][771]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.08-08.20.25:197][771]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.08-08.20.25:212][771]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.08-08.20.25:212][771]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.08-08.20.25:212][771]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.08-08.20.25:218][771]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.08-08.20.25:218][771]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.08-08.20.25:218][771]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.08-08.20.25:218][771]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.08-08.20.25:218][771]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.08-08.20.25:218][771]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.08-08.20.25:218][771]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.08-08.20.25:218][771]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.08-08.20.25:246][771]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.08-08.20.25:246][771]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.08-08.20.25:262][771]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.08-08.20.25:356][771]LogDerivedDataCache: Shutdown
+[2016.01.08-08.20.25:356][771]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.08-08.20.25:379][771]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.08-08.20.25:388][771]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.08-08.20.25:397][771]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.08-08.20.25:397][771]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.08-08.20.25:406][771]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.08-08.20.25:418][771]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.08-08.20.25:418][771]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.08-08.20.25:418][771]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.08-08.20.25:418][771]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.08-08.20.25:418][771]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.08-08.20.25:448][771]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.08-08.20.25:449][771]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.08-08.20.25:460][771]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.08-08.20.25:460][771]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.08-08.20.25:471][771]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.08-08.20.25:478][771]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.08-08.20.25:479][771]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.08-08.20.25:479][771]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.08-08.20.25:479][771]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.08-08.20.25:491][771]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.08-08.20.25:495][771]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.08-08.20.25:515][771]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.08-08.20.25:542][771]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.08-08.20.25:565][771]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.08-08.20.25:593][771]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.08-08.20.25:604][771]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.08-08.20.25:604][771]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.08-08.20.25:639][771]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.08-08.20.25:646][771]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.08-08.20.25:654][771]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.08-08.20.25:678][771]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.08-08.20.25:678][771]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.08-08.20.25:678][771]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.08-08.20.25:678][771]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.08-08.20.25:678][771]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.08-08.20.30:684][771]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.08-08.20.30:709][771]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.08-08.20.30:709][771]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.08-08.20.30:709][771]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.08-08.20.30:709][771]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.08-08.20.30:709][771]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.08-08.20.30:739][771]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.08-08.20.30:749][771]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.08-08.20.30:749][771]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.08-08.20.30:764][771]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.08-08.20.30:764][771]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.08-08.20.30:764][771]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.08-08.20.30:764][771]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.08-08.20.30:774][771]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.08-08.20.30:786][771]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.08-08.20.30:792][771]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.08-08.20.30:806][771]LogExit: Exiting.
+[2016.01.08-08.20.30:847][771]Log file closed, 01/08/16 16:20:30
